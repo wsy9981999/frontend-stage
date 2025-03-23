@@ -44,5 +44,5 @@ export default defineConfigWithVueTs(
   },
   ...oxlint.configs['flat/recommended'],
   skipFormatting,
-  ...compat.extends("./imports.json"),
+  ...compat.extends("./eslint/imports.json"),
 )

@@ -22,7 +22,7 @@ export const AutoImportPlugin =  () => {
     dts: './types/imports.d.ts',
     eslintrc: {
       enabled: true,
-      filepath:'./imports.json'
+      filepath:'./eslint/imports.json'
     },
   })
 }
