@@ -18,7 +18,7 @@ useDark({
         <n-message-provider>
           <n-modal-provider>
             <n-notification-provider>
-              <router-view></router-view>
+              <slot></slot>
             </n-notification-provider>
           </n-modal-provider>
         </n-message-provider>
